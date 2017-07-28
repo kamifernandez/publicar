@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina3_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AWl-Co-t1e">
+                                <rect key="frame" x="40" y="129" width="240" height="221"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_publicar.png" translatesAutoresizingMaskIntoConstraints="NO" id="67p-1f-Ptg">
+                                        <rect key="frame" x="56" y="24" width="129" height="128"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="129" id="maF-tG-3J5"/>
+                                            <constraint firstAttribute="height" constant="128" id="vb6-pZ-MEj"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="publicar" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iLS-kz-D9y">
+                                        <rect key="frame" x="71" y="167" width="98" height="29"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="97.5" id="E39-ii-aTv"/>
+                                            <constraint firstAttribute="height" constant="29" id="pjH-rB-Pcn"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="25"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="iLS-kz-D9y" firstAttribute="top" secondItem="67p-1f-Ptg" secondAttribute="bottom" constant="15" id="5BA-ho-nwR"/>
+                                    <constraint firstAttribute="width" constant="240" id="L4e-9U-XDs"/>
+                                    <constraint firstItem="67p-1f-Ptg" firstAttribute="centerX" secondItem="AWl-Co-t1e" secondAttribute="centerX" id="ODp-r5-KOi"/>
+                                    <constraint firstAttribute="height" constant="221" id="c2a-ZW-epw"/>
+                                    <constraint firstItem="iLS-kz-D9y" firstAttribute="centerX" secondItem="AWl-Co-t1e" secondAttribute="centerX" id="mDf-h4-G8n"/>
+                                    <constraint firstItem="67p-1f-Ptg" firstAttribute="top" secondItem="AWl-Co-t1e" secondAttribute="top" constant="24" id="z6b-Ka-3CZ"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.99306601289999996" green="0.81720685959999995" blue="0.13923940060000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="AWl-Co-t1e" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Kwc-Lc-VWZ"/>
+                            <constraint firstItem="AWl-Co-t1e" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="nOF-qd-HWT"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.5" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="img_publicar.png" width="129" height="128"/>
+    </resources>
+</document>
